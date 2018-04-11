@@ -1,0 +1,26 @@
+page{
+  padding: 10rpx;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+input{
+  border-bottom: 1px solid #ddd;
+}
+view{
+  margin-bottom: 25rpx;
+}
+.medical_checkbox{
+  font-size: 13px;
+  margin-right: 5px;
+}
+.title{
+  font-family: '微软雅黑';
+  font-weight:bold;
+}
+checkbox{
+  margin-right: 5px;
+}
+.submitbutton{
+  margin-top: 40px;
+  text-align: center;
+}

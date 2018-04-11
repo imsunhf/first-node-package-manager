@@ -1,0 +1,7 @@
+<map 
+  style="width:100%;height:300px" 
+  markers="{{markers}}"
+  bindmarkertap="{{switchCity}}"
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}"></map>
+  我在哪里：<text>{{address}}</text>

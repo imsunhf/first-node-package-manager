@@ -1,0 +1,196 @@
+<view class="menu clearfloat"> 
+  <scroll-view scroll-x="true" class="top-nav">
+    <view bindtap="toNew" class="top-btn {{new}}">推荐</view>
+    <view bindtap="toNew" class="top-btn {{new}}">手机</view>
+    <view bindtap="toNew" class="top-btn {{new}}">智能</view>
+    <view bindtap="toNew" class="top-btn {{new}}">电视</view>
+    <view bindtap="toNew" class="top-btn {{new}}">电脑</view>
+    <view bindtap="toNew" class="top-btn {{new}}">全名屏</view>
+    <view bindtap="toNew" class="top-btn {{new}}">生活周边</view>
+    <view bindtap="toNew" class="top-btn {{new}}">盒子</view>
+  </scroll-view>
+</view>
+<view >
+  <swiper class="swiperWrap" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="multi_cell">
+    <image class="multi_cell_item" src="../../static/image/938f75d98244629b0d29bfc9c4323f8d.png" />
+    <image class="multi_cell_item" src="../../static/image/9173298cc0297ce1803c43485e525358.jpg" />
+    <image class="multi_cell_item" src="../../static/image/938f75d98244629b0d29bfc9c4323f8d.png" />
+    <image class="multi_cell_item" src="../../static/image/9173298cc0297ce1803c43485e525358.jpg" />
+    <image class="multi_cell_item" src="../../static/image/938f75d98244629b0d29bfc9c4323f8d.png" />
+</view>
+<view class="multi_cell">
+  <view class="ad1">
+    <image class="ad1-full-height" src="../../static/image/4e49bf9d661efbb24408302dd7dbcbfc.jpg" />
+  </view>
+  <view class="ad1 ad_column">
+    <image class="ad1-half-height" src="../../static/image/124c4a6d85729a8f6328947329cecd94.jpg" />
+    <image class="ad1-half-height" src="../../static/image/61e73771f282dec00e8941c1eb7af6dc.jpg" />
+  </view>
+</view>
+<view>
+  <image class="ad2" src="../../static/image/6c11856299452f5c6ddc566bfbab4a2f.jpg" />
+</view>
+<view>
+  <image class="ad3_image" src="../../static/image/646a4297e4bdddc33462ad2de3cbcd20.jpg" />
+  <scroll-view scroll-x="true" class="ad3_scroll_wrap">
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+    <view bindtap="toNew" class="ad3_scroll">
+      <image class="ad3_scroll_image" src="../../static/image/19a01dfb52bd52d9a3654eab319b457e.jpg" />
+      <view class="ad3_scroll_text">
+        <text class="red">￥739</text>
+        <text>￥739</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view >
+  <image class="ad4" src="../../static/image/5ea66d93f71747714615266cc2faa8a8.jpg" />
+</view>
+<view>
+  <image class="ad5" src="../../static/image/124c4a6d85729a8f6328947329cecd94.jpg" />
+  <view class="ad5_item_wrap">
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+    <view class="ad5_item">
+      <view class="ad5_item_ima-wrap">
+        <image class="ad5_item_ima" src="../../static/image/d68da7f79cc9800a34b1b48e1a439e44.jpg" />
+      </view>
+      <view class="ad5_item_text">
+        <text class="ad5_item_text1">小米MIX2 \n</text>
+        <text class="ad5_item_text2">5.99大屏，4轴光学防抖 \n</text>
+        <text class="ad5_item_text3">￥3099起</text>
+      </view>
+    </view>
+
+  </view>
+</view>

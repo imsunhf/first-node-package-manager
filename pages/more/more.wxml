@@ -1,0 +1,4 @@
+<view class="navigator-wrap">
+  <navigator url="/pages/form/form"  class="navigator-item" hover-class="navigator-hover">表单示例页面</navigator>
+  <navigator url="/pages/form/form"  class="navigator-item" hover-class="navigator-hover">表单示例页面</navigator>
+</view>

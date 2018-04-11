@@ -1,0 +1,2 @@
+<image src="{{userInfo.avatarUrl}}" />
+<text>{{userInfo.nickName}}</text>

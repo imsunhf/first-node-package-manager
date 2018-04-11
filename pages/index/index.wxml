@@ -1,0 +1,10 @@
+<view wx:for="{{articles}}" wx:key="id" wx:for-item="article" class="article-desc {{article.isReaded?'article-item--clicked':''}}">
+  <image src="{{article.cover}}" data-id="{{article.id}}" bindtap="toDetailPage"/>
+  <view>
+    <view data-id="{{article.id}}" bindtap="toDetailPage">{{article.title}}</view>
+    <view>{{article.description}}</view>
+  </view>
+
+</view>
+  <button type="default" loading="{{loading}}"   plain="{{true}}"  bindtap="loadMore" hover-class="defaultTap">{{loadMoreText}}</button>
+  <button  open-type="share" class="article-share-btn"/>

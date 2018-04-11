@@ -1,0 +1,44 @@
+<view>
+  <view>
+    <view class="image-icon-wrap">
+      <image src="../../static/image/ooopic_1523341176.png" mode="aspectFill" />
+    </view>
+    <view>
+      <view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>
+                城市
+              </view>
+
+            </view>
+            <view>
+              <input type="text" disabled="{{true}}" value="广州市"  name="city"/>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>
+                天气情况
+              </view>
+            </view>
+            <view>
+              <input type="text" disabled="{{true}}"/>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>
+              气温
+              </view>
+            </view>
+            <view>
+              <input type="text" disabled="{{true}}" value="21" name="name   "/>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

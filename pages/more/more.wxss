@@ -1,0 +1,19 @@
+page{
+  background:#ebebeb;
+}
+.navigator-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.navigator-item{
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex;
+  background:#fff;
+  margin-bottom:5px;
+}

@@ -1,0 +1,144 @@
+.clearfloat::after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+page{
+  width: 750rpx;
+  overflow-x: hidden;
+}
+.red{
+  color:#f00;
+}
+.menu{
+  height:70rpx;
+  line-height:35rpx;
+  width:100%;
+  background:#fff;
+  border-bottom:2rpx solid #dbdbdb;
+}
+.top-nav{
+  position:fixed;
+  top:0;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10000;
+  background:#fff;
+}
+.top-btn{
+  display:inline-block;
+  padding: 22rpx;
+  font-size: 16px;
+  color: #979797;
+}
+.swiperWrap{
+  height: 375rpx;
+}
+.slide-image{
+  width: 750rpx;
+  height: 375rpx;
+}
+.testrpx{
+  height: 30rpx;
+  width: 20rpx;
+  background:#f00;
+}
+.multi_cell{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.multi_cell_item{
+  width: 150rpx;
+  height:150rpx;
+}
+.add1{
+  width: 375rpx;
+}
+.ad1-full-height{
+  width: 375rpx;
+  height: 530rpx;
+}
+.ad_column{
+  display:flex;
+  flex-direction: column;
+}
+.ad1-half-height{
+  width: 375rpx;
+  height: 265rpx;
+}
+.ad2{
+  height:290rpx;
+  width:750rpx;
+}
+.ad3_image{
+  width: 750rpx;
+  height: 82rpx;
+}
+.ad3_scroll_wrap{
+  width: 750rpx;
+  height:258rpx;
+  white-space: nowrap;
+}
+.ad3_scroll{
+  display: inline-block;
+  width: 202rpx;
+  height:258rpx;
+  margin-right:8rpx;
+}
+.ad3_scroll_image{
+  display:block;
+  width: 202rpx;
+  height: 202rpx;
+}
+.ad3_scroll_text{
+  width: 202rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align:center;
+  font-size: 12px;
+}
+.ad4{
+  width: 750rpx;
+  height: 290rpx;
+}
+.ad5{
+  width: 750rpx;
+  height: 460rpx;
+}
+.ad5_item_wrap{
+  box-sizing: border-box;
+}
+.ad5_item{
+  display:inline-block;
+  width: 375rpx;
+  height: 530rpx;
+  box-sizing: border-box;
+}
+.ad5_item_ima-wrap{
+  width: 375rpx;
+  height: 374rpx;
+}
+.ad5_item_ima{
+  width: 376rpx;
+  height: 374rpx;
+}
+.ad5_item:nth-child(2n+1) .ad5_item_ima{
+  width: 370rpx;
+}
+.ad5_item_text{
+  width: 375rpx;
+  height: 156rpx;
+  font-size: 12px;
+  padding-left: 10rpx;
+}
+.ad5_item_text1{
+  line-height: 30px;
+  font-size: 15px;
+}
+.ad5_item_text2{
+  padding: 3px 0;
+  color: #a19b9b;
+}
+.ad5_item_text3{
+  padding: 3px 0;
+  color:#f00;
+}
