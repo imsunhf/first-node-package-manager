@@ -1,0 +1,20 @@
+{
+  "name": "first-node-package-manager",
+  "version": "1.0.7",
+  "description": "undefined",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first"
+  ],
+  "bin": {
+    "ff": "src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "prompts": "^2.3.2"
+  }
+}
